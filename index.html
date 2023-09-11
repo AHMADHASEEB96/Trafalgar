@@ -1,0 +1,343 @@
+<!DOCTYPE html> <!-- indicates that this file follows HTMl5 rules  -->
+<html lang="en"> <!-- Declare the HTML file -->
+
+<head> <!-- include info data -->
+    <meta charset="UTF-8"> <!-- define the coding rules  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta elements used to include information about the html fragments  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Start fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=JetBrains+Mono:wght@100;200;300;400&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poiret+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,800;0,900;1,200;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <!-- End fonts -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/xm-yekan" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mediaQuery.css">
+    <link rel="stylesheet" href="css/facts-one-me-media-query.css">
+
+    <title> </title> <!-- include the website title -->
+</head>
+<!-- *********************************************************************************************************************** -->
+<!-- Start the website structure -->
+
+<body>
+    <header>
+        <nav  id = "navigator" class="">
+            <div class="container">
+                <div class="nav-bar flex-between flex-wrap">
+                    <div class="logo-div flex-between">
+                        <div id="logo-img-div" class="flex-center">
+
+                            <a href="" class=""><img src="./media/images/T.png" alt=" logo image , T letter"
+                                    id="logo-img"></a>
+                        </div>
+                        <p class="logo-title">Trafalgar</p>
+                    </div>
+                    <ul class="flex-self-end flex-center flex-wrap">
+                        <a href="#home" onclick="window.location.reload()">
+                            <li class="active-li"> Home </li>
+                        </a>
+                        <a href="#services">
+                            <li>Find a doctor</li>
+                        </a>
+                        <a href="#apps">
+                            <li>Apps</li>
+                        </a>
+                        <a href="#testimonials">
+                            <li>Testimonials</li>
+                        </a>
+                        <a href="#articles">
+                            <li>Articles</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- *********************************************************************************************************************** -->
+        <div id="hero" class="header-sections">
+            <div class="container flex-between flex-wrap">
+                <div class="hero-content">
+                    <h1>Virtual healthcare <br>
+                        for you</h1>
+                    <p>Trafalgar provides progressive, and affordable
+                        healthcare, accessible on mobile and online
+                        for everyone</p>
+                    <button id="consult-today-btn" class="btn-more">Consult today</button>
+                </div>
+                <div class="hero-img"> <img src="./media/images/trafalgar-header illustration 1.png" alt=""></div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <!-- Services section-->
+        <section id="services" class="header-sections">
+            <div class="container">
+                <!-- introduction -->
+                <div class="section-intro bottom-line">
+                    <h1>Our services</h1>
+                    <p>We provide to you the best choices for you. Adjust it to your health needs and make sure your
+                        undergo treatment with
+                        our highly qualified doctors you can consult with us which type of service is suitable for your
+                        health</p>
+                </div>
+            </div>
+
+            <!-- *********************************************************************************************************************** -->
+            <!-- Services -->
+            <div id="services-cards" class="main-sections">
+                <div class="body-container">
+                    <dvi class="cards-holder">
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Frame.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Search doctor</h1>
+                                <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Group.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Online pharmacy</h1>
+                                <p>Buy your medicines with our mobile application with a simple delivery system</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Frame (1).png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Consultation</h1>
+                                <p>Free consultation with our trusted doctors and get the best recomendations</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Frame (2).png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Details info</h1>
+                                <p>Free consultation with our trusted doctors and get the best recomendations</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Frame (3).png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Emergency care</h1>
+                                <p>You can get 24/7 urgent care for yourself or your children and your
+                                    lovely family</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/Group2.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Tracking</h1>
+                                <p>Track and save your medical history and health data</p>
+                            </div>
+                        </div>
+                    </dvi>
+                </div>
+                <div class="button-more-holder flex-center"> <button class="btn-more"> Learn more </button> </div>
+            </div>
+
+
+
+        </section>
+        <!-- *********************************************************************************************************************** -->
+        <!-- leading health care providers section -->
+        <section id="leading-health-care-providers" class="main-sections">
+            <div class="body-container flex-between">
+                <div id="leading-health-care-providers-img-holder" class="hero-img"> <img
+                        src="./media/images/trafalgar-illustration sec02 1.png" alt="">
+                </div>
+                <div id="leading-health-care-providers-text-holder"
+                    class="hero-content bottom-line left-bottom-line-divs">
+                    <h1> Leading healthcare providers
+                    </h1>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for
+                        everyone. To us, it’s not
+                        just work. We take pride
+                        in the solutions we deliver</p>
+                    <button class="btn-more"> Learn more </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="main-sections">
+            <div class="body-container  flex-between flex-wrap">
+
+                <div id="apps-text-holder" class="hero-content bottom-line left-bottom-line-divs">
+                    <h1> Download our
+                        mobile apps
+                    </h1>
+                    <p>Our dedicated patient engagement app and
+                        web portal allow you to access information instantaneously (no tedeous form, long calls,
+                        or administrative hassle) and securely</p>
+                    <button class="btn-more"> Download <img src="./media/images/Vector.png" alt=""> </button>
+                </div>
+                <div id="apps-img-holder" class="hero-img"> <img src="./media/images/trafalgar-illustration sec03 1.png"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- *********************************************************************************************************************** -->
+        <!-- Testimonials -->
+        <section id="testimonials" class="main-sections backgrounded">
+            <div class="body-container">
+                <div id="testimonials-intro" class="section-intro bottom-line">
+                    <h1>What our customer are saying</h1>
+                </div>
+                <div id="testimonials-holder" class="flex-center">
+                    <div class="reviewer flex-gap-20">
+                        <div class="reviewer-img-holder">
+                            <img src="./media/images/Mask Group.png" alt="" class="reviewer-img">
+                        </div>
+
+                        <div class="reviewer-details">
+                            <h3 class="reviewer-name"> Ahmad Haseeb</h3>
+                            <p class="reviewer-position"> Fullstack Developer </p>
+                        </div>
+
+                    </div>
+                    <p class="review">“Our dedicated patient engagement app and
+                        web portal allow you to access information instantaneously (no tedeous form, long calls,
+                        or administrative hassle) and securely”</p>
+                </div>
+            </div>
+            <div class="slider flex-gap-20">
+                <div class="arr-left"> <img src="./media/images/arr-l.png" alt="arrow left"></div>
+                <!-- <div class="dots"> <img src="./media/images/slider.png" alt=" slider dots"></div> -->
+                <div class="slider-dots flex-gap-20">
+                    <span class="active-slide"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="arr-right"><img src="./media/images/arr-r.png" alt="arrow right"></div>
+            </div>
+        </section>
+        <!-- *********************************************************************************************************************** -->
+        <!-- articles section -->
+        <section id="articles" class="main-sections">
+            <div id="articles-intro" class="section-intro bottom-line">
+                <h1>Check out our latest article</h1>
+            </div>
+
+            <div id="articles-cards" class="main-sections">
+                <div class="body-container">
+                    <dvi class="cards-holder">
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/article-1-img.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Disease detection, check
+                                    up in the laboratory</h1>
+                                <p>In this case, the role of the health laboratory is very important to do
+                                    a disease detection...
+                                </p>
+                                <div class="read-more  flex-gap-10 flex">
+                                    <p>Read more</p>
+                                    <div class="arr-img-holder flex-center">
+                                        <img src="./media/images/read-more-arr.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/article-2-img.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Herbal medicines that are
+                                    safe for consumption</h1>
+                                <p>Herbal medicine is very widely used at this time because of its very good for your
+                                    health...</p>
+                                <div class="read-more  flex-gap-10 flex">
+                                    <p>Read more</p>
+                                    <div class="arr-img-holder flex-center">
+                                        <img src="./media/images/read-more-arr.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards-img-holder"><img src="./media/images/article-3-img.png" alt=""></div>
+                            <div class="cards-text">
+                                <h1>Natural care for healthy
+                                    facial skin</h1>
+                                <p>A healthy lifestyle should start from now and also for your skin health.
+                                    There are some...</p>
+                                <div class="read-more  flex-gap-10 flex">
+                                    <p>Read more</p>
+                                    <div class="arr-img-holder flex-center">
+                                        <img src="./media/images/read-more-arr.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </dvi>
+                </div>
+                <div class="button-more-holder flex-center"> <button class="btn-more"> Learn more </button> </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- *********************************************************************************************************************** -->
+    <footer class="backgrounded">
+        <div class="container  flex-gap-100">
+            <div id="footer-logo-div">
+                <div class="logo-div flex-between">
+                    <div id="logo-img-div" class="flex-center">
+
+                        <a href="" class=""><img src="./media/images/T.png" alt=" logo image , T letter"
+                                id="logo-img"></a>
+                    </div>
+                    <p class="logo-title">Trafalgar</p>
+                </div>
+                <div class="logo-pars ">
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online
+                        for everyone
+                    <p>
+                    <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                </div>
+            </div>
+            <div id="footer-resources" class="flex-between">
+                <div id="company" class="footer-resources-holder">
+                    <h3>Company</h3>
+                    <div class="footer-ps-holder">
+                        <p class="footer-paragraphs"> About</p>
+                        <p class="footer-paragraphs">Testimonials</p>
+                        <p class="footer-paragraphs">Find a doctor </p>
+                        <p class="footer-paragraphs">Apps</p>
+                    </div>
+                </div>
+                <div id="region" class="footer-resources-holder">
+                    <h3>Company</h3>
+                    <div class="footer-ps-holder">
+                        <p class="footer-paragraphs"> About</p>
+                        <p class="footer-paragraphs">Testimonials</p>
+                        <p class="footer-paragraphs">Find a doctor </p>
+                        <p class="footer-paragraphs">Apps</p>
+                    </div>
+                </div>
+                <div id="help" class="footer-resources-holder">
+                    <h3>Company</h3>
+                    <div class="footer-ps-holder">
+                        <p class="footer-paragraphs"> About</p>
+                        <p class="footer-paragraphs">Testimonials</p>
+                        <p class="footer-paragraphs">Find a doctor </p>
+                        <p class="footer-paragraphs">Apps</p>
+                    </div>
+                </div>
+
+            </div>
+    </footer>
+    <a href="#navigator"><button id="scroll-up"> UP </button></a>
+    <script src="app/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+/* Media query */
+@media (max-width: 1500px) {
+  .container,
+  .body-container {
+    width: 80%;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-top: 10px;
+    height: 70px;
+    /* text-align: start; */
+  }
+
+  #hero .container {
+    flex-direction: column-reverse;
+  }
+  .hero-img {
+    /* centralize the image within */
+   text-align: center;
+  }
+  .hero-img img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .cards-img-holder {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .cards-text {
+    text-align: center;
+  }
+  #leading-health-care-providers-img-holder,
+  #apps-img-holder {
+    display: none;
+    
+  }
+  /* centralize the text and decline the 30% width property */
+  .hero-content,
+  #leading-health-care-providers-text-holder,
+  #apps-text-holder,
+  #testimonials-holder .review  {
+    width: 100%;
+    text-align: center;
+
+  }
+  /* centralize the line below it  */
+    .left-bottom-line-divs h1::before {
+      left: 50%;
+      transform: translateX(-50%)    ;
+      -webkit-transform: translateX(-50%)    ;
+      -moz-transform: translateX(-50%)    ;
+      -ms-transform: translateX(-50%)    ;
+      -o-transform: translateX(-50%)    ;
+}
+#testimonials .body-container {
+  padding: 40px;
+}
+
+.reviewer {
+  flex-direction: column;
+  align-items: center;/* to centralize container divisions */
+  text-align: center; /* to centralize the reviewer name and the position */
+  /* background-color: red; */
+}
+#testimonials-holder {
+  gap: 50px;
+}
+footer {
+ padding : 10px;
+}
+
+footer .container {
+  flex-direction: column;
+  gap: 50px !important; /*  To override the inline styling which is implemented using js  */
+}
+
+}
+/* 
+@media (min-width: ) {
+
+} */
